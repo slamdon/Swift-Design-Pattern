@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FCC9A71E23D4F000DE1F96 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCC9A61E23D4F000DE1F96 /* main.swift */; };
+		18FCC9B71E2467FD00DE1F96 /* WoodBakery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCC9B61E2467FD00DE1F96 /* WoodBakery.swift */; };
+		18FCC9B91E24680B00DE1F96 /* WoodSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCC9B81E24680B00DE1F96 /* WoodSchool.swift */; };
+		18FCC9BB1E24681500DE1F96 /* WoodFireStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCC9BA1E24681500DE1F96 /* WoodFireStation.swift */; };
+		18FCC9BD1E24681D00DE1F96 /* WoodHospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCC9BC1E24681D00DE1F96 /* WoodHospital.swift */; };
+		18FCC9C01E247CC100DE1F96 /* StoneBakery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCC9BF1E247CC100DE1F96 /* StoneBakery.swift */; };
+		18FCC9C21E247CCC00DE1F96 /* StoneSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCC9C11E247CCC00DE1F96 /* StoneSchool.swift */; };
+		18FCC9C41E247CD500DE1F96 /* StoneFireStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCC9C31E247CD500DE1F96 /* StoneFireStation.swift */; };
+		18FCC9C61E247CDD00DE1F96 /* StoneHospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCC9C51E247CDD00DE1F96 /* StoneHospital.swift */; };
+		18FCC9C81E247D6F00DE1F96 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FCC9C71E247D6F00DE1F96 /* Observer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18FCC9A11E23D4EF00DE1F96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18FCC9A31E23D4EF00DE1F96 /* Observer Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Observer Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FCC9A61E23D4F000DE1F96 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		18FCC9B61E2467FD00DE1F96 /* WoodBakery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoodBakery.swift; sourceTree = "<group>"; };
+		18FCC9B81E24680B00DE1F96 /* WoodSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoodSchool.swift; sourceTree = "<group>"; };
+		18FCC9BA1E24681500DE1F96 /* WoodFireStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoodFireStation.swift; sourceTree = "<group>"; };
+		18FCC9BC1E24681D00DE1F96 /* WoodHospital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoodHospital.swift; sourceTree = "<group>"; };
+		18FCC9BF1E247CC100DE1F96 /* StoneBakery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoneBakery.swift; sourceTree = "<group>"; };
+		18FCC9C11E247CCC00DE1F96 /* StoneSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoneSchool.swift; sourceTree = "<group>"; };
+		18FCC9C31E247CD500DE1F96 /* StoneFireStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoneFireStation.swift; sourceTree = "<group>"; };
+		18FCC9C51E247CDD00DE1F96 /* StoneHospital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoneHospital.swift; sourceTree = "<group>"; };
+		18FCC9C71E247D6F00DE1F96 /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FCC9A01E23D4EF00DE1F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FCC99A1E23D4EF00DE1F96 = {
+			isa = PBXGroup;
+			children = (
+				18FCC9A51E23D4EF00DE1F96 /* Observer Pattern */,
+				18FCC9A41E23D4EF00DE1F96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FCC9A41E23D4EF00DE1F96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FCC9A31E23D4EF00DE1F96 /* Observer Pattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FCC9A51E23D4EF00DE1F96 /* Observer Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				18FCC9A61E23D4F000DE1F96 /* main.swift */,
+				18FCC9AD1E24646B00DE1F96 /* Wood City */,
+				18FCC9BE1E247CAA00DE1F96 /* Stone City */,
+			);
+			path = "Observer Pattern";
+			sourceTree = "<group>";
+		};
+		18FCC9AD1E24646B00DE1F96 /* Wood City */ = {
+			isa = PBXGroup;
+			children = (
+				18FCC9B61E2467FD00DE1F96 /* WoodBakery.swift */,
+				18FCC9B81E24680B00DE1F96 /* WoodSchool.swift */,
+				18FCC9BA1E24681500DE1F96 /* WoodFireStation.swift */,
+				18FCC9BC1E24681D00DE1F96 /* WoodHospital.swift */,
+			);
+			name = "Wood City";
+			sourceTree = "<group>";
+		};
+		18FCC9BE1E247CAA00DE1F96 /* Stone City */ = {
+			isa = PBXGroup;
+			children = (
+				18FCC9C71E247D6F00DE1F96 /* Observer.swift */,
+				18FCC9BF1E247CC100DE1F96 /* StoneBakery.swift */,
+				18FCC9C11E247CCC00DE1F96 /* StoneSchool.swift */,
+				18FCC9C31E247CD500DE1F96 /* StoneFireStation.swift */,
+				18FCC9C51E247CDD00DE1F96 /* StoneHospital.swift */,
+			);
+			name = "Stone City";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FCC9A21E23D4EF00DE1F96 /* Observer Pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FCC9AA1E23D4F000DE1F96 /* Build configuration list for PBXNativeTarget "Observer Pattern" */;
+			buildPhases = (
+				18FCC99F1E23D4EF00DE1F96 /* Sources */,
+				18FCC9A01E23D4EF00DE1F96 /* Frameworks */,
+				18FCC9A11E23D4EF00DE1F96 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Observer Pattern";
+			productName = "Observer Pattern";
+			productReference = 18FCC9A31E23D4EF00DE1F96 /* Observer Pattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FCC99B1E23D4EF00DE1F96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Don;
+				TargetAttributes = {
+					18FCC9A21E23D4EF00DE1F96 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DT8726CBX4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18FCC99E1E23D4EF00DE1F96 /* Build configuration list for PBXProject "Observer Pattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18FCC99A1E23D4EF00DE1F96;
+			productRefGroup = 18FCC9A41E23D4EF00DE1F96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FCC9A21E23D4EF00DE1F96 /* Observer Pattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FCC99F1E23D4EF00DE1F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FCC9C21E247CCC00DE1F96 /* StoneSchool.swift in Sources */,
+				18FCC9C81E247D6F00DE1F96 /* Observer.swift in Sources */,
+				18FCC9C61E247CDD00DE1F96 /* StoneHospital.swift in Sources */,
+				18FCC9B71E2467FD00DE1F96 /* WoodBakery.swift in Sources */,
+				18FCC9C41E247CD500DE1F96 /* StoneFireStation.swift in Sources */,
+				18FCC9BB1E24681500DE1F96 /* WoodFireStation.swift in Sources */,
+				18FCC9A71E23D4F000DE1F96 /* main.swift in Sources */,
+				18FCC9B91E24680B00DE1F96 /* WoodSchool.swift in Sources */,
+				18FCC9BD1E24681D00DE1F96 /* WoodHospital.swift in Sources */,
+				18FCC9C01E247CC100DE1F96 /* StoneBakery.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18FCC9A81E23D4F000DE1F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18FCC9A91E23D4F000DE1F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18FCC9AB1E23D4F000DE1F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DT8726CBX4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18FCC9AC1E23D4F000DE1F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DT8726CBX4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FCC99E1E23D4EF00DE1F96 /* Build configuration list for PBXProject "Observer Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FCC9A81E23D4F000DE1F96 /* Debug */,
+				18FCC9A91E23D4F000DE1F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FCC9AA1E23D4F000DE1F96 /* Build configuration list for PBXNativeTarget "Observer Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FCC9AB1E23D4F000DE1F96 /* Debug */,
+				18FCC9AC1E23D4F000DE1F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FCC99B1E23D4EF00DE1F96 /* Project object */;
+}
