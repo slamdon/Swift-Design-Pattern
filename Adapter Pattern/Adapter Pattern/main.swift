@@ -19,3 +19,8 @@ print("== search ==")
 for book in searchTool.search(text: "computer science", type: .category) {
     print(book.name)
 }
+
+print("== search name ==")
+for book in searchTool.search(text: "a", type: .name) {
+    print(book.name)
+}

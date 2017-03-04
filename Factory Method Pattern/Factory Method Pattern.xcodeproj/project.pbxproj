@@ -7,16 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18B573C71E2248B200147E13 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B573C61E2248B200147E13 /* main.swift */; };
-		18B573E51E2321E000147E13 /* StoneLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B573E41E2321E000147E13 /* StoneLibrary.swift */; };
-		18B573E71E23221C00147E13 /* StoneLibraryDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B573E61E23221C00147E13 /* StoneLibraryDB.swift */; };
-		18B573E91E2323ED00147E13 /* StoneLibrarySearchTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B573E81E2323ED00147E13 /* StoneLibrarySearchTool.swift */; };
-		18B573EF1E2325B400147E13 /* OldLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B573EE1E2325B400147E13 /* OldLibrary.swift */; };
-		18B573F31E23293600147E13 /* OldLibraryAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B573F21E23293600147E13 /* OldLibraryAdapter.swift */; };
+		1A10A3591E6A635800837EBD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A10A3581E6A635800837EBD /* main.swift */; };
+		1A10A3601E6A6E1600837EBD /* ProductFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A10A35F1E6A6E1600837EBD /* ProductFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		18B573C11E2248B200147E13 /* CopyFiles */ = {
+		1A10A3531E6A635800837EBD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -28,17 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		18B573C31E2248B200147E13 /* Adapter Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Adapter Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18B573C61E2248B200147E13 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		18B573E41E2321E000147E13 /* StoneLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoneLibrary.swift; sourceTree = "<group>"; };
-		18B573E61E23221C00147E13 /* StoneLibraryDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoneLibraryDB.swift; sourceTree = "<group>"; };
-		18B573E81E2323ED00147E13 /* StoneLibrarySearchTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoneLibrarySearchTool.swift; sourceTree = "<group>"; };
-		18B573EE1E2325B400147E13 /* OldLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OldLibrary.swift; sourceTree = "<group>"; };
-		18B573F21E23293600147E13 /* OldLibraryAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OldLibraryAdapter.swift; sourceTree = "<group>"; };
+		1A10A3551E6A635800837EBD /* Factory Method Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Factory Method Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A10A3581E6A635800837EBD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1A10A35F1E6A6E1600837EBD /* ProductFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18B573C01E2248B200147E13 /* Frameworks */ = {
+		1A10A3521E6A635800837EBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,123 +40,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18B573BA1E2248B200147E13 = {
+		1A10A34C1E6A635800837EBD = {
 			isa = PBXGroup;
 			children = (
-				18B573C51E2248B200147E13 /* Adapter Pattern */,
-				18B573C41E2248B200147E13 /* Products */,
+				1A10A3571E6A635800837EBD /* Factory Method Pattern */,
+				1A10A3561E6A635800837EBD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18B573C41E2248B200147E13 /* Products */ = {
+		1A10A3561E6A635800837EBD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18B573C31E2248B200147E13 /* Adapter Pattern */,
+				1A10A3551E6A635800837EBD /* Factory Method Pattern */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18B573C51E2248B200147E13 /* Adapter Pattern */ = {
+		1A10A3571E6A635800837EBD /* Factory Method Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				18B573C61E2248B200147E13 /* main.swift */,
-				18B573DC1E2310A300147E13 /* StoneLibrary */,
-				18B573DD1E2310AE00147E13 /* Old Library */,
+				1A10A3581E6A635800837EBD /* main.swift */,
+				1A10A35F1E6A6E1600837EBD /* ProductFactory.swift */,
 			);
-			path = "Adapter Pattern";
-			sourceTree = "<group>";
-		};
-		18B573DC1E2310A300147E13 /* StoneLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				18B573E41E2321E000147E13 /* StoneLibrary.swift */,
-				18B573E61E23221C00147E13 /* StoneLibraryDB.swift */,
-				18B573E81E2323ED00147E13 /* StoneLibrarySearchTool.swift */,
-			);
-			name = StoneLibrary;
-			sourceTree = "<group>";
-		};
-		18B573DD1E2310AE00147E13 /* Old Library */ = {
-			isa = PBXGroup;
-			children = (
-				18B573EE1E2325B400147E13 /* OldLibrary.swift */,
-				18B573F21E23293600147E13 /* OldLibraryAdapter.swift */,
-			);
-			name = "Old Library";
+			path = "Factory Method Pattern";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18B573C21E2248B200147E13 /* Adapter Pattern */ = {
+		1A10A3541E6A635800837EBD /* Factory Method Pattern */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18B573CA1E2248B200147E13 /* Build configuration list for PBXNativeTarget "Adapter Pattern" */;
+			buildConfigurationList = 1A10A35C1E6A635800837EBD /* Build configuration list for PBXNativeTarget "Factory Method Pattern" */;
 			buildPhases = (
-				18B573BF1E2248B200147E13 /* Sources */,
-				18B573C01E2248B200147E13 /* Frameworks */,
-				18B573C11E2248B200147E13 /* CopyFiles */,
+				1A10A3511E6A635800837EBD /* Sources */,
+				1A10A3521E6A635800837EBD /* Frameworks */,
+				1A10A3531E6A635800837EBD /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Adapter Pattern";
-			productName = "Adapter Pattern";
-			productReference = 18B573C31E2248B200147E13 /* Adapter Pattern */;
+			name = "Factory Method Pattern";
+			productName = "Factory Method Pattern";
+			productReference = 1A10A3551E6A635800837EBD /* Factory Method Pattern */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18B573BB1E2248B200147E13 /* Project object */ = {
+		1A10A34D1E6A635800837EBD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = Don;
+				ORGANIZATIONNAME = "Don Chen";
 				TargetAttributes = {
-					18B573C21E2248B200147E13 = {
+					1A10A3541E6A635800837EBD = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = DT8726CBX4;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 18B573BE1E2248B200147E13 /* Build configuration list for PBXProject "Adapter Pattern" */;
+			buildConfigurationList = 1A10A3501E6A635800837EBD /* Build configuration list for PBXProject "Factory Method Pattern" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 18B573BA1E2248B200147E13;
-			productRefGroup = 18B573C41E2248B200147E13 /* Products */;
+			mainGroup = 1A10A34C1E6A635800837EBD;
+			productRefGroup = 1A10A3561E6A635800837EBD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18B573C21E2248B200147E13 /* Adapter Pattern */,
+				1A10A3541E6A635800837EBD /* Factory Method Pattern */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18B573BF1E2248B200147E13 /* Sources */ = {
+		1A10A3511E6A635800837EBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B573E51E2321E000147E13 /* StoneLibrary.swift in Sources */,
-				18B573F31E23293600147E13 /* OldLibraryAdapter.swift in Sources */,
-				18B573E71E23221C00147E13 /* StoneLibraryDB.swift in Sources */,
-				18B573EF1E2325B400147E13 /* OldLibrary.swift in Sources */,
-				18B573E91E2323ED00147E13 /* StoneLibrarySearchTool.swift in Sources */,
-				18B573C71E2248B200147E13 /* main.swift in Sources */,
+				1A10A3601E6A6E1600837EBD /* ProductFactory.swift in Sources */,
+				1A10A3591E6A635800837EBD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		18B573C81E2248B200147E13 /* Debug */ = {
+		1A10A35A1E6A635800837EBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +180,7 @@
 			};
 			name = Debug;
 		};
-		18B573C91E2248B200147E13 /* Release */ = {
+		1A10A35B1E6A635800837EBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +220,7 @@
 			};
 			name = Release;
 		};
-		18B573CB1E2248B200147E13 /* Debug */ = {
+		1A10A35D1E6A635800837EBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = DT8726CBX4;
@@ -261,7 +229,7 @@
 			};
 			name = Debug;
 		};
-		18B573CC1E2248B200147E13 /* Release */ = {
+		1A10A35E1E6A635800837EBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = DT8726CBX4;
@@ -273,25 +241,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18B573BE1E2248B200147E13 /* Build configuration list for PBXProject "Adapter Pattern" */ = {
+		1A10A3501E6A635800837EBD /* Build configuration list for PBXProject "Factory Method Pattern" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18B573C81E2248B200147E13 /* Debug */,
-				18B573C91E2248B200147E13 /* Release */,
+				1A10A35A1E6A635800837EBD /* Debug */,
+				1A10A35B1E6A635800837EBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18B573CA1E2248B200147E13 /* Build configuration list for PBXNativeTarget "Adapter Pattern" */ = {
+		1A10A35C1E6A635800837EBD /* Build configuration list for PBXNativeTarget "Factory Method Pattern" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18B573CB1E2248B200147E13 /* Debug */,
-				18B573CC1E2248B200147E13 /* Release */,
+				1A10A35D1E6A635800837EBD /* Debug */,
+				1A10A35E1E6A635800837EBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18B573BB1E2248B200147E13 /* Project object */;
+	rootObject = 1A10A34D1E6A635800837EBD /* Project object */;
 }
